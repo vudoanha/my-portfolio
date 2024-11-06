@@ -1,0 +1,203 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+    box-sizing: border-box;
+	font: inherit;
+	vertical-align: baseline;
+}
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #282c34;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.intro {
+    max-width: 600px;
+}
+
+.video-intro > span {
+    color: red;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #61dafb;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#projects .project-list,
+#experience .experience-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.project-item, .experience-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea, button {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #282c34;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #282c34;
+    color: white;
+}
+/* Home Section */
+#home {
+    padding: 60px 400px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+#home h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.video-intro {
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+}
+
+.companies, .schools {
+    margin-top: 20px;
+}
+
+.companies h3, .schools h3 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.companies ul, .schools ul {
+    list-style: none;
+    padding: 0;
+}
+
+.companies li, .schools li {
+    font-size: 1rem;
+    padding: 5px 0;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #282c34;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #61dafb;
+}
+h2 {
+    display: block;
+    font-size: 2.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+#about {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.skills {
+    margin-top: 20px;
+}
+
+.skills h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li {
+    font-size: 1rem;
+    padding: 5px 0;
+    color: #666;
+}
+.introduce{
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.each-skill{
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.facebook-link {
+    color: white;
+}
+.tiktok-link {
+    color: white;
+}
+.social-media {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
